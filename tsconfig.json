@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target" : "es6",
+    "module" : "commonjs",
+    "outDir" : "dist",  //타입스크립트가 자바스크립트로 빌드된 파일들 모아두는 폴더명
+    "esModuleInterop": true, // es6 모듈 사양을 준수하여 commonjs 모듈을 가져옴
+  }
+}
